@@ -19,7 +19,7 @@ public class DemoApplication  implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		travelerReposi.save(new Traveler(null,"hocine","mabrouki23@hotmail.fr"));
+		travelerReposi.save(new Traveler(null,"hocine0","mabrouki23@hotmail.fr"));
 		travelerReposi.save(new Traveler(null,"hocine1","mabrouki23@hotmail.fr"));
 		travelerReposi.save(new Traveler(null,"hocine2","mabrouki23@hotmail.fr"));
 		
